@@ -1,0 +1,24 @@
+.component {
+  background-color: #1abc9c;
+  height: 80vh;
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .container {
+    .icon {
+      .before {
+        width: 80px;
+        background-color: white;
+        height: 4px;
+        margin-right: 10px;
+      }
+      .after {
+        width: 80px;
+        background-color: white;
+        height: 4px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

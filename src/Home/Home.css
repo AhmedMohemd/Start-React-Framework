@@ -1,0 +1,25 @@
+.start {
+  background-color: #1abc9c;
+  height: 80vh;
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  img {
+    width: 85%;
+  }
+  .icon {
+    .before {
+      width: 70px;
+      background-color: white;
+      height: 3px;
+      margin-right: 10px;
+    }
+    .after {
+      width: 70px;
+      background-color: white;
+      height: 3px;
+      margin-left: 10px;
+    }
+  }
+}
