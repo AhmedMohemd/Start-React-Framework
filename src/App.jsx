@@ -5,6 +5,7 @@ import Portfolio from "./Portfolio/Portfolio";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./Contact/Contact";
 import Layout from "./Layout/Layout";
+import NotFound from "./NotFound/NotFound";
 
 export default function App() {
   let Rootes = createBrowserRouter([
@@ -19,6 +20,7 @@ export default function App() {
         { path: "Contact", element: <Contact /> },
       ],
     },
+    { path: "*", element: <NotFound /> },
   ]);
   return (
     <>
