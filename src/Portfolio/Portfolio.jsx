@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import img1 from "../assets/poert1.png";
 import img2 from "../assets/port2.png";
 import img3 from "../assets/port3.png";
-import "./portfolio.css";
+import "./Portfolio.css";
 export default function Portfolio() {
   const [selectImg, setSelectImg] = useState("");
   const closeModal = () => setSelectImg("");
